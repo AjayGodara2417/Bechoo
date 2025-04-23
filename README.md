@@ -1,22 +1,32 @@
-Next.js Application
-# Build to Learn
+# Next.js Application
 
-## Getting Started
-Step up basic Next.js File
-``` npm create-next-app@latest ```
-Follow the basic commands:
-Setup with TypeScript
-TailwindCSS Installed
-Files in /src folder
-Set AppRouter
-No custom alias
+## Build to Learn
 
-### Clerk
-Set up clerk for user authentication and login, signup handle
-Add sign up with:
-      Google
-      GitHub
-      Manual email and password
+### Getting Started
 
-Handle Route protection with middleware support form Clerk
-Protect Routes
+Set up a basic Next.js application:
+
+```bash
+npm create-next-app@latest
+```
+
+Follow these steps:
+
+- Configure the project with TypeScript.
+- Install and set up TailwindCSS.
+- Organize files within the `/src` folder.
+- Enable the App Router.
+- Avoid using custom aliases.
+
+### Clerk Integration
+
+Set up Clerk for user authentication, including login and signup functionality. Provide the following sign-up options:
+
+- Google
+- GitHub
+- Manual email and password
+
+#### Route Protection
+
+- Use Clerk's middleware support to handle route protection.
+- Secure routes effectively to ensure proper access control.
